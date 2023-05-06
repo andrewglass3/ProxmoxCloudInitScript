@@ -56,7 +56,7 @@ cpuTypeRequired="host"
 * Should you wish to set the ethernet adapter to static modify the command quoted above inside the script to use a valid ip/subnet and gateway for example  ``` qm set $virtualMachineId  --ipconfig0 ip=10.10.10.222/24,gw=10.10.10.1 ``` 
 
 * The cpu type is set to host as this allows passthrough of cpu properties eg AES-NI MMX etc if you wish to change please modify the variable ``` cpuTypeRequired="host" ```
-  Examples includ ```cpuTypeRequired="kvm64" ``` ``` cpuTypeRequired="qemu64" ``` etc.
+  Examples include ```cpuTypeRequired="kvm64" ``` ``` cpuTypeRequired="qemu64" ``` etc.
 
 * Once this script finishes - on the left column in Proxmox you will see 9000 jammy-tpl - this is your vm template - right click and select clone.  
 
