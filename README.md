@@ -12,7 +12,7 @@
 
 * We install libguestfs-tools after updating and upgrading the base Ubuntu packages as this is package is needed to be able to run the ``` virt-customize ``` commands.
 
-* Give the script execute permissions ``` chmod +x the script create-ubuntu-jammy-template.sh ```
+* Give the script execute permissions ``` chmod +x create-ubuntu-jammy-template.sh ```
 
 * Finally run the script ``` ./create-ubuntu-jammy-template.sh ```
 
