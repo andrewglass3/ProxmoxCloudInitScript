@@ -2,6 +2,16 @@
 
 ### This script creates an Ubuntu 22.04 template for quick creation of virtual machines in Proxmox VE. ###
 
+### Useful Links: ###
+
+https://proxmox.com/en/ < Get Promox VE from here.
+
+https://cloud-images.ubuntu.com/ < Get Ubuntu Cloud Init images from here.
+
+https://forum.proxmox.com/ < Proxmox Community Forum.
+
+
+
 ### Instructions ###
 
 * SSH into the Proxmox VE server and run as root or a user with admin permissions.
