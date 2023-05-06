@@ -10,7 +10,7 @@
 
 * Modify the variables section to your needs as per the instructions below.
 
-* We install libguestfs-tools after updating and upgrading the base Ubuntu packages as this is package is needed to be able to run the ``` virt-customize `` commands.
+* We install libguestfs-tools after updating and upgrading the base Ubuntu packages as this is package is needed to be able to run the ``` virt-customize ``` commands.
 
 * Give the script execute permissions ``` chmod +x the script create-ubuntu-jammy-template.sh ```
 
