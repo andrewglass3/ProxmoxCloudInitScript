@@ -69,7 +69,7 @@ cpuTypeRequired="host"
 
 * This will last for about 30 seconds  whilst it builds and boots the vm, once booted you will see the login prompt - use the root user with the password you set in the script to login.  
 
-### Ensure you change the default password on initial login if you didnt change it during the script execution. ###
+### Ensure you change the default password on initial login if you didnt change it during the script execution. I have set the root password in this script to ``` password ``` ###
 
 ### Script output after running on my personal Proxmox VE host ###
 
