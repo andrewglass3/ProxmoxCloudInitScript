@@ -43,7 +43,7 @@ cpuTypeRequired="host"
 
 * ``` virtualMachineId="9000" ``` When setting this variable value - please ensure that it uses an id number that is not already in use as it will be over written by this script. Since my vms are in the low 100's Ive set this value to an obviously high number.
 
-* ``` templateName="jammy-tpl" ``` This variable is used to set the name of the template as it appears in the datacentre > pve > list on in the column on the left side of the proxmox web ui. 
+* ``` templateName="jammy-tpl" ``` This variable is used to set the name of the template as it appears in the datacentre > pve > list on in the column on the left side of the proxmox web ui as you can see in the image above.
 
 * ``` tmp_cores="2" ``` Use of this variable configures the number of cpu cores you wish to add to your vm template.
 
