@@ -65,7 +65,7 @@ cpuTypeRequired="host"
 <img width="626" alt="image" src="https://user-images.githubusercontent.com/7479585/236637155-b03e45d0-6954-4d63-af5f-362d07d8e943.png">
 
 
-* Once the new vm appears in the left column - start the vm and open the console - please be aware that you will only see a single line of output at the top of the console.
+* Once the new vm appears in the left column - start the vm and open the console - please be aware that you may only see a single line of output at the top of the console on initial boot.
 
 * This will last for about 30 seconds  whilst it builds and boots the vm, once booted you will see the login prompt - use the root user with the password you set in the script to login.  
 
