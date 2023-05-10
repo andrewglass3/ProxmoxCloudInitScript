@@ -11,7 +11,7 @@ rootPasswd="password"
 cpuTypeRequired="host"
 
 apt update && apt upgrade -y
-apt install libguestfs-tools -y
+apt install libguestfs-tools qemu-guest-agent -y
 rm *.img
 wget -O $imageName $imageURL
 qm destroy $virtualMachineId
