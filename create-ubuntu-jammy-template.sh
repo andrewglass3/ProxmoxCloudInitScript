@@ -10,7 +10,7 @@ tmp_memory="2048"
 rootPasswd="password"
 cpuTypeRequired="host"
 
-apt update && apt upgrade -y
+apt update
 apt install libguestfs-tools -y
 rm *.img
 wget -O $imageName $imageURL
