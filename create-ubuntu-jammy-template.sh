@@ -1,6 +1,6 @@
 #!/bin/bash
 
-imageURL=https://cloud-images.ubuntu.com/jammy/20230504/jammy-server-cloudimg-amd64.img
+imageURL=https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 imageName="jammy-server-cloudimg-amd64.img"
 volumeName="local-lvm"
 virtualMachineId="9000"
